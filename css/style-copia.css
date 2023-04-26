@@ -2,18 +2,20 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
 
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(240, 174, 9);
 
 }
 
 ul {
     list-style: none;
-    font-family: sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
 
 }
 
@@ -28,7 +30,9 @@ ul {
 .titulo {
     display: flex;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgb(240, 174, 9);
+    font-size: 15px;
 
 
 }
@@ -37,6 +41,15 @@ ul {
     display: flex;
     justify-content: center;
     padding: 1%;
+
+}
+
+.imagen-logo{
+    display: flex;
+    width: 60px;
+    height: 75px;
+    justify-content: center;
+    
 
 }
 

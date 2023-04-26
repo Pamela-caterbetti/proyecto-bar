@@ -1,0 +1,44 @@
+.titulo {
+    display: flex;
+    font-family: $fuente-principal;
+    color: $color-secundario;
+    font-size: $font-size;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.bienvenida {
+    padding: 2%;
+
+}
+
+
+
+.galeria-index {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width:1200px) {
+
+    .galeria-index {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .galeria-index img {
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+        object-fit: cover;
+    }
+
+    .imagen-principal {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}

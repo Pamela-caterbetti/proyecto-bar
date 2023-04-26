@@ -1,0 +1,28 @@
+
+.quienes-somos {
+    text-align: center;
+    padding: 2%;
+    font-size: 25px;
+
+}
+
+.nosotros {
+    justify-content: center;
+    padding: 2%;
+    font-size: 80x;
+}
+
+.imagen-nosotros {
+    width: 95%;
+    height: 95%;
+}
+
+@media (min-width:1200px) {
+    .nosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+
+}

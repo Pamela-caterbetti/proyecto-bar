@@ -1,0 +1,48 @@
+form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+
+}
+
+.titulo-formulario {
+
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5%;
+    background-color: white;
+    color: black;
+
+}
+
+.ubicacion {
+
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.texto-ubicacion {
+
+    text-align: center;
+    color: black;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: $font-size;
+    padding: 3%;
+    
+}

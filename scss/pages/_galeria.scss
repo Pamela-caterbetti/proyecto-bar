@@ -1,0 +1,39 @@
+
+.imagen-galeria {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 10px;
+
+
+}
+
+.video {
+    padding: 2%;
+    align-items: center;
+
+}
+
+.eventos-titulo {
+    font-size: 30px;
+
+
+}
+
+@media (min-width:1200px) {
+
+    .imagen-galeria {
+
+        width: 260px;
+        height: 300px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-position: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3%;
+        margin-left: 5%;
+
+    }
+}

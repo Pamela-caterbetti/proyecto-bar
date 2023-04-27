@@ -64,6 +64,8 @@ footer {
   padding: 1%;
   font-size: 12%;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer-contenedor .redes-iconos li {
   display: flex;
@@ -132,6 +134,14 @@ form {
   padding: 3%;
 }
 
+.texto-galeria {
+  font-family: serif;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: 5%;
+}
+
 .imagen-galeria {
   display: flex;
   flex-direction: column;
@@ -162,14 +172,6 @@ form {
     margin-left: 5%;
   }
 }
-.texto-galeria {
-  font-family: serif;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-  margin: 5%;
-}
-
 .titulo-menu h2 {
   justify-content: center;
   align-items: center;

@@ -9,9 +9,11 @@ footer {
     padding: 1%;
     font-size: 12%;
     display: flex;
-
-
-
+    align-items: center;
+    justify-content: center;
+    
+    
+    
     .redes-iconos li {
         display: flex;
         align-items: center;
@@ -24,6 +26,8 @@ footer {
         font-size: $font-size;
 
     }
+
+    
 }
 
 @media (min-width: 1200px) {
@@ -45,4 +49,6 @@ footer {
         margin-right: 2%;
         font-size: 15px;
     }
+
+    
 }

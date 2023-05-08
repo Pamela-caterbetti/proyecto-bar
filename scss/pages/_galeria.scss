@@ -7,6 +7,8 @@
     text-align: center;
     justify-content: center;
     margin: 5%;
+    font-size: $fuente-principal;
+    font-family: $fuente-principal;
 
 }
 
@@ -24,29 +26,32 @@
 .video {
     padding: 2%;
     align-items: center;
+    
 
 }
 
 .eventos-titulo {
-    font-size: 30px;
+    font-size: 18px;
+    font-family: $fuente-principal;
 
 
 }
 
 @media (min-width:1200px) {
 
-    .imagen-galeria {
+    
+        .imagen-galeria {
+          width: 260px;
+          height: 300px;
+          display: flex;
+          align-content: center;
+          justify-content: center;
+          background-position: center;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 3%;
+          margin-left: 5%;
+        }
 
-        width: 260px;
-        height: 300px;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        background-position: center;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 3%;
-        margin-left: 5%;
 
-    }
 }

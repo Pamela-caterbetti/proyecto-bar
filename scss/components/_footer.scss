@@ -2,24 +2,34 @@ footer {
     text-align: center;
     background-color: $color-secundario;
     color: $color-primario;
-    font-size: 12%;
+    font-size: $font-size
+   
 }
 
 .footer-contenedor {
     padding: 1%;
-    font-size: 12%;
+    font-size: $fuente-principal;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: $fuente-principal;
     
-    
+}
     
     .redes-iconos li {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 5%;
-        font-size: 12%;
+        gap: 3%;
+        font-size: $font-size
+        
+    }
+
+    .redes-sociales h3{
+        font-size: $font-size;
+        
+
+
     }
 
     .datos {
@@ -27,8 +37,8 @@ footer {
 
     }
 
-    
-}
+   
+
 
 @media (min-width: 1200px) {
 

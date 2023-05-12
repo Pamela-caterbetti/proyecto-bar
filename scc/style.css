@@ -172,7 +172,6 @@ form {
   flex-direction: row;
   width: 50%;
   height: 50%;
-  padding: 2%;
 }
 
 .eventos-titulo {
@@ -214,7 +213,7 @@ form {
     color: rgb(240, 174, 9);
   }
   .video {
-    padding: 2%;
+    padding: 5%;
     margin-left: 20%;
   }
 }
@@ -224,75 +223,97 @@ form {
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-direction: column;
+  background-position: center;
+  flex-direction: row;
+  margin-left: 10%;
 }
 
 .menu-ribs {
+  font-size: 17px;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  padding: 3%;
+  margin-right: 20%;
+  flex-direction: row;
   justify-content: center;
+  display: inline-flex;
+  gap: 3px;
 }
 
 .imagen-pastas {
   width: 280px;
   height: 200px;
   display: flex;
-  flex-direction: column;
   align-content: center;
   justify-content: center;
+  background-position: center;
+  flex-direction: row;
+  background-color: bisque;
+  margin: 3%;
+  justify-content: space-between;
 }
 
 .menu-pastas {
+  font-size: 17px;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  padding: 3%;
+  margin-right: 20%;
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-flex;
+  gap: 3px;
 }
 
 .imagen-costeles {
-  width: 290px;
-  height: 230px;
+  width: 280px;
+  height: 200px;
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-direction: column;
-  padding: 3%;
+  background-position: center;
+  flex-direction: row;
+  margin-left: 10%;
 }
 
 .menu-cocteles {
   font-size: 17px;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  padding: 3%;
+  margin-right: 20%;
+  flex-direction: row;
   justify-content: center;
+  display: inline-flex;
+  gap: 3px;
+}
+
+.titulo-menu {
+  padding: 3%;
+  background-color: white;
 }
 
 .menu-pastas p {
   font-family: serif;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
 }
 
 .menu-pastas h3 {
   font-family: serif;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
-  margin: 5%;
+  margin: 15%;
 }
 
 .menu-ribs p {
   font-family: serif;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
   justify-content: center;
 }
 
 .menu-ribs h3 {
   font-family: serif;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
   margin: 5%;
@@ -300,51 +321,25 @@ form {
 
 .menu-cocteles p {
   font-family: serif;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .menu-cocteles h3 {
   font-family: serif;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
+  margin: 5%;
 }
 
-@media (min-width: 1200px) {
-  .menu-ribs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr;
-    max-width: 80%;
-    padding-top: 5%;
-  }
-  .imagen-ribs {
-    grid-row: span 2/2;
-    margin-left: 20%;
-  }
-  .menu-pastas {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr;
-    max-width: 80%;
-    padding-top: 5%;
-  }
-  .imagen-pastas {
-    grid-row: span 2/2;
-    margin-left: 20%;
-  }
-  .menu-cocteles {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr;
-    max-width: 80%;
-    padding-top: 5%;
-  }
-  .imagen-costeles {
-    grid-row: span 2/2;
-    margin-left: 20%;
-  }
+.texto-galeria {
+  font-family: serif;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: 5%;
 }
+
 .quienes-somos {
   text-align: center;
   padding: 2%;

@@ -37,7 +37,19 @@ footer {
 
     }
 
+.botones-footer{
+    
    
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: $color-primario;
+    border-radius: 15%;
+    border-color: $color-primario;
+    padding: 5px 10px;
+
+
+}
 
 
 @media (min-width: 1200px) {
@@ -56,9 +68,17 @@ footer {
     }
 
     .span {
-        margin-right: 2%;
+        margin-right: 5%;
         font-size: 15px;
     }
 
+    .botones-footer{
     
+    background-color: black;
+    color: $color-primario;
+    border-radius: 15%;
+    border-color: $color-primario;
+    padding: 5px 10px;
+
+}
 }

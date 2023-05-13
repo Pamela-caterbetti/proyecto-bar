@@ -2,14 +2,19 @@
 .quienes-somos {
     text-align: center;
     padding: 2%;
-    font-size: 25px;
+    font-size: $font-size;
+    font-family: $fuente-principal;
+    color: $color-primario;
 
 }
 
 .nosotros {
     justify-content: center;
     padding: 2%;
-    font-size: 80x;
+    font-size: $font-size;
+    font-family: $fuente-principal;
+    color: $color-secundario;
+
 }
 
 .imagen-nosotros {

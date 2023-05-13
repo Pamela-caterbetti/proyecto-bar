@@ -2,14 +2,13 @@
 
 .texto-galeria {
 
-    font-family: serif;
+    font-family: $fuente-principal;
     flex-direction: row;
     text-align: center;
     justify-content: center;
     margin: 5%;
-    font-size: $fuente-principal;
-    font-family: $fuente-principal;
-
+    font-size: $font-size;
+    color: $color-primario;
 }
 
 
@@ -26,10 +25,10 @@
 .video {
    
     align-items: center;
-    flex-direction: row;
     width: 50%;
     height: 50%;
     padding: 2%;
+    margin-left: 13%;
 
 
 }
@@ -43,14 +42,27 @@
 
 }
 .titulo-video h3{
-    flex-direction: row;
-    align-items: center;
+    display: flex;
+    text-align: center;
     justify-content: center;
+    margin-left: 15%;
+    padding: 3%;
+    color: $color-secundario;
     font-size: $font-size;
     font-family: $fuente-principal;
    
 
-    
+
+}
+.boton-reserva{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%; 
+    padding: 10px 32px;
+    background-color: black;
+    border-radius: 15%;
+    color: $color-primario;
+
 
 }
 @media (min-width:1200px) {
@@ -72,6 +84,7 @@
     align-items: center;
     font-size: $fuente-principal;
     font-family: $fuente-principal;
+    color: $color-secundario;
 }
 
 .boton-reserva{
@@ -83,9 +96,9 @@
     border-radius: 15%;
     color: $color-primario;
 
-
 }
 .video {
+
     padding: 2%;
     margin-left: 20%;
   

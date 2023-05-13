@@ -85,6 +85,16 @@ footer {
   font-size: 18px;
 }
 
+.botones-footer {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(240, 174, 9);
+  border-radius: 15%;
+  border-color: rgb(240, 174, 9);
+  padding: 5px 10px;
+}
+
 @media (min-width: 1200px) {
   footer {
     display: flex;
@@ -97,8 +107,15 @@ footer {
     padding: 1%;
   }
   .span {
-    margin-right: 2%;
+    margin-right: 5%;
     font-size: 15px;
+  }
+  .botones-footer {
+    background-color: black;
+    color: rgb(240, 174, 9);
+    border-radius: 15%;
+    border-color: rgb(240, 174, 9);
+    padding: 5px 10px;
   }
 }
 form {
@@ -106,7 +123,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: "Nanum Myeongjo", serif;
+  font-size: 18px;
   font-family: "Nanum Myeongjo", serif;
   color: black;
 }
@@ -117,7 +134,7 @@ form {
   justify-content: center;
   color: black;
   padding: 5%;
-  font-size: "Nanum Myeongjo", serif;
+  font-size: 18px;
   font-family: "Nanum Myeongjo", serif;
 }
 
@@ -137,7 +154,7 @@ form {
   align-items: center;
   justify-content: center;
   font-weight: bolder;
-  font-size: "Nanum Myeongjo", serif;
+  font-size: 18px;
   font-family: "Nanum Myeongjo", serif;
   padding: 3%;
 }
@@ -151,13 +168,13 @@ form {
   }
 }
 .texto-galeria {
-  font-family: serif;
+  font-family: "Nanum Myeongjo", serif;
   flex-direction: row;
   text-align: center;
   justify-content: center;
   margin: 5%;
-  font-size: "Nanum Myeongjo", serif;
-  font-family: "Nanum Myeongjo", serif;
+  font-size: 18px;
+  color: rgb(240, 174, 9);
 }
 
 .imagen-galeria {
@@ -169,10 +186,10 @@ form {
 
 .video {
   align-items: center;
-  flex-direction: row;
   width: 50%;
   height: 50%;
   padding: 2%;
+  margin-left: 13%;
 }
 
 .eventos-titulo {
@@ -182,11 +199,24 @@ form {
 }
 
 .titulo-video h3 {
-  flex-direction: row;
-  align-items: center;
+  display: flex;
+  text-align: center;
   justify-content: center;
+  margin-left: 15%;
+  padding: 3%;
+  color: black;
   font-size: 18px;
   font-family: "Nanum Myeongjo", serif;
+}
+
+.boton-reserva {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  padding: 10px 32px;
+  background-color: black;
+  border-radius: 15%;
+  color: rgb(240, 174, 9);
 }
 
 @media (min-width: 1200px) {
@@ -204,6 +234,7 @@ form {
     align-items: center;
     font-size: "Nanum Myeongjo", serif;
     font-family: "Nanum Myeongjo", serif;
+    color: black;
   }
   .boton-reserva {
     text-align: center;
@@ -348,13 +379,17 @@ form {
 .quienes-somos {
   text-align: center;
   padding: 2%;
-  font-size: 25px;
+  font-size: 18px;
+  font-family: "Nanum Myeongjo", serif;
+  color: rgb(240, 174, 9);
 }
 
 .nosotros {
   justify-content: center;
   padding: 2%;
-  font-size: 80x;
+  font-size: 18px;
+  font-family: "Nanum Myeongjo", serif;
+  color: black;
 }
 
 .imagen-nosotros {

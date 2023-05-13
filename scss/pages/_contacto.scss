@@ -4,7 +4,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: $fuente-principal;
+    font-size: $font-size;
     font-family: $fuente-principal;
     color: $color-secundario;
     
@@ -19,7 +19,7 @@ form {
     justify-content: center;
     color: $color-secundario;
     padding: 5%;
-    font-size: $fuente-principal;
+    font-size: $font-size;
     font-family: $fuente-principal;
 
 }
@@ -44,7 +44,7 @@ form {
     align-items: center;
     justify-content: center;
     font-weight: bolder;
-    font-size: $fuente-principal;
+    font-size: $font-size;
     font-family: $fuente-principal;
     padding: 3%;
     

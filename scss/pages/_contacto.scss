@@ -7,15 +7,15 @@ form {
     font-size: $font-size;
     font-family: $fuente-principal;
     color: $color-secundario;
-    
-   
+
+
 
 }
 
 .titulo-formulario h5 {
-    
+
     display: flex;
-    text-align: center; 
+    text-align: center;
     justify-content: center;
     color: $color-secundario;
     padding: 5%;
@@ -30,7 +30,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 
 }
 
@@ -47,8 +47,8 @@ form {
     font-size: $font-size;
     font-family: $fuente-principal;
     padding: 3%;
-    
-    
+
+
 }
 
 @media (min-width:1200px) {
@@ -61,6 +61,6 @@ form {
         text-align: center;
 
 
-    
-}
+
+    }
 }
